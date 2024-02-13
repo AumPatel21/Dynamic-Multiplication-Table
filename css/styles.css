@@ -1,0 +1,113 @@
+html, body {
+    margin: 0px;
+    height: 100%;
+    background-color: #ccd5ae !important;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 5rem;
+}
+
+.container-fluid {
+    height: 100%;;
+}
+
+p {
+    text-align: center;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+}
+
+/* row & column styling stuff so the form and table 
+dont overlap when dimensions change */
+.row {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.col-md-5:nth-child(2) {
+    margin-left: 0px;
+    min-width: 300px;
+    overflow-x: auto;
+    overflow-y: auto;
+}
+
+
+.col-md-6{
+    margin-right: 30px;
+    min-width: 300px;
+}
+
+form{
+    width: 80%;
+}
+
+.table-container {
+    margin: 0;
+    width: 20%;
+    /* overflow: auto; */
+}
+
+#minYInput, #maxYInput, #minXInput{
+    margin-bottom: 0.5rem;
+}
+
+#maxXInput {
+    margin-bottom: 1rem;
+}
+
+/* styling for the submit button */
+.btn-primary {
+    margin-top: 1rem;
+    color: black !important;
+    background-color: #d4a373 !important;
+    border: none !important;
+}
+
+/* styling for the reset button */
+.btn-secondary {
+    color: black !important;
+    background-color: #f2e9e4 !important;
+    border: none !important;
+}
+
+/* adding hover effect to the buttons */
+.btn:hover {
+    background-color: #9a8c98 !important;
+}
+
+/* Styling for table below */
+table {
+    margin-top: 2rem;
+    font-weight: bold;
+}
+
+tr {
+    text-align: center;
+}
+
+tr:first-child {
+    background-color: #ffbe0b !important;
+}
+
+tr:nth-child(odd) {
+    background-color: #fefae0;
+}
+
+tr:nth-child(even) {
+    background-color: #faedcd;
+}
+
+td:first-child {
+    background-color: #ffbe0b !important;
+}
+
+
+/* Jquery error styling */
+.error {
+    display: block;
+    color: red;
+}
